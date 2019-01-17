@@ -1,0 +1,55 @@
+Last documented exercise: ex17.py
+
++------------------------+
+| keyword :: description |
++------------------------+
+
+print() :: Display something to the command prompt.
+x.format(y) :: Places 'y' into string/variable 'x' where there is a placeholder.
+end=' ' :: Adds a space, can be used at the end of a line.
+formatter = "{} {} {}" :: Make a list of four placeholders.
+formatter.format("x", "y", "z") :: Set three strings into the formatter variable.
+print("Here are the days: ", days) :: Append a variable to the end of a string.
+input() :: Get user input.
+from sys import argv :: Access a package and import them to the script.
+script, first, second, third = argv :: Asign individual variable names to the arguments passed, first one is the script name.
+txt = open(filename) :: Open a file, can be saved to a var.
+txt.read() :: Print the entire file using the .read() function.
+input("?") :: Wait for user to hit ENTER.
+file.truncate() :: Erase the file content.
+file.write("Some data") :: Write content to the file.
+file.close() :: Close the file, should be done at the end of use.
+*args :: You don't need to specify the exact amount of arguments.
+int() :: To integer typecast.
+float() :: To float typecast.
+f.seek(0) :: Set file readhead to byte 0.
+f.readline() :: Read specific file line.
+
++-----------------------+
+| symbol :: description |
++-----------------------+
+
+# :: Single line comment, multiline comments do not exist.
+, :: Separate variables.
+() :: Encapsulate something.
+"" :: String literal.
+'' :: String literal.
++ :: Add.
+- :: Subtract.
+* :: Multiply.
+/ :: Divide.
+% :: Modulus.
+> :: Greater than.
+< :: Less than.
+>= :: Greater than or equal to.
+<= :: Less than or equal to.
+= :: Set one thing equal to another.
+{} :: Placeholder within string, can be var/func, etc.
+f"" :: Format a string.
+\n :: New line.
+""" """ :: Multi-line print statement.
+\t :: Tabulate.
+; :: Combine two lines in one.
+* :: All.
++= :: Increment one to the total.
+-= :: Decrement one from the total.
